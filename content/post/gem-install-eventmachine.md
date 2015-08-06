@@ -1,6 +1,6 @@
 +++
 date = "2015-07-22T07:03:16+09:00"
-title = "gem install eventmachine"
+title = "gem install eventmachineがopenssl.hがなくて失敗するとき"
 
 +++
 
