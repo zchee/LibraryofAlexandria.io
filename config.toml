@@ -11,6 +11,15 @@ canonifyurls = true
 editor = "nvim"
 title = "Library of Alexandria"
 theme = "material-lite"
+TwitterUser = "_zchee_"
+# FacebookUser = "YourFacebookUsername"
+# GooglePlusUser = "YourGooglePlusUsername"
+copyright = "&copy; a short copyright statement"
+author = "zchee"
+# background = "a relative or absolute URL to a background image"
+# bgcolor = "a background color; will be ignored if you use background"
+primary = "indigo"
+accent = "pink"
 
 [permalinks]
   post = "/:year/:month/:title/"
