@@ -1,0 +1,3 @@
+[submodule "themes/hugo-loa"]
+	path = themes/hugo-loa
+	url = git@github.com:zchee/hugo-loa.git

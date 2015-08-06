@@ -1,0 +1,25 @@
+machine:
+  timezone: Asia/Tokyo
+  environment:
+    CIRCLE_BUILD_DIR: $HOME/$CIRCLE_PROJECT_REPONAME
+    PATH: $PATH:$CIRCLE_BUILD_DIR/bin
+  post:
+    - mkdir -p $CIRCLE_BUILD_DIR/bin
+
+checkout:
+  post:
+    - git submodule update --init --recursive
+
+dependencies:
+  pre:
+    - bash ./ci-install-hugo.sh
+    - go get -v github.com/nathany/s3up
+  cache_directories:
+    - bin
+
+test:
+  pre:
+  override:
+    - hugo -v
+  post:
+    - if [ $CIRCLE_BRANCH == 'master' ]; then s3up -source=public/ -bucket=$BUCKET -key=$AWS_ACCESS_KEY_ID -secret=$AWS_SECRET_ACCESS_KEY -region="ap-northeast-1" ; fi

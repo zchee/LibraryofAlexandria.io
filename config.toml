@@ -1,0 +1,24 @@
+########################################
+#
+# Library of Alexandria hugo config
+# Doc is see http://gohugo.io/overview/configuration/
+#
+########################################
+
+builddrafts = true
+baseurl = "http://libraryofalexandria.io/"
+canonifyurls = true
+editor = "nvim"
+title = "Library of Alexandria"
+theme = "hugo-loa"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+
+  [taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "Library of Alexandria"
+  author = "zchee <Koichi Shiraishi>"
