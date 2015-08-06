@@ -4,3 +4,6 @@
 [submodule "themes/material-lite"]
 	path = themes/material-lite
 	url = git@github.com:SamuelDebruyn/hugo-material-lite.git
+[submodule "themes/nofancy"]
+	path = themes/nofancy
+	url = git@github.com:gizak/nofancy.git

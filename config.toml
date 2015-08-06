@@ -10,21 +10,20 @@ baseurl = "http://libraryofalexandria.io/"
 canonifyurls = true
 editor = "nvim"
 title = "Library of Alexandria"
-theme = "material-lite"
-TwitterUser = "_zchee_"
-# FacebookUser = "YourFacebookUsername"
-# GooglePlusUser = "YourGooglePlusUsername"
-copyright = "&copy; a short copyright statement"
-author = "zchee"
-# background = "a relative or absolute URL to a background image"
-# bgcolor = "a background color; will be ignored if you use background"
-primary = "indigo"
-accent = "pink"
+theme = "nofancy"
+
+[author]
+  name = "zchee - Koichi Shiraishi"
+  github = "zchee"
+  # linkedin = "YOUR LINKEDIN ID"
+  # facebook = "YOUR FB ID"
+  # gaID = "YOUR Google Analytics Tracking ID"
+  twitter = "_zchee_"
 
 [permalinks]
   post = "/:year/:month/:title/"
 
-  [taxonomies]
+[taxonomies]
   category = "categories"
   tag = "tags"
 
