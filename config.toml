@@ -10,7 +10,7 @@ baseurl = "http://libraryofalexandria.io/"
 canonifyurls = true
 editor = "nvim"
 title = "Library of Alexandria"
-theme = "hugo-loa"
+theme = "material-lite"
 
 [permalinks]
   post = "/:year/:month/:title/"
