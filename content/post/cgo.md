@@ -155,3 +155,19 @@ Usage:
 ```bash
 GODEBUG=scheddetail=1,schedtrace=1000 go run x.go
 ```
+
+## ldflags
+
+Traditional build:
+```bash
+go build helloworld.go && stat -f "%N: %z bytes" helloworld
+helloworld: 2344944 bytes
+```
+
+Without DWARF:
+```
+go build -ldflags=-w helloworld.go && stat -f "%N: %z bytes" helloworld
+helloworld: 1746928 bytes
+```
+But you lose debug information.
+
