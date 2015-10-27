@@ -109,3 +109,49 @@ See also https://golang.org/pkg/unsafe/
 ```go
 func unsafe.Pointer() *ArbitraryType
 ```
+
+Compiler flags
+===
+
+## flags
+Several important flag:
+
+```bash
+-h help
+-S print assembly listing
+-m print optimization decisions such as escape analysis
+-l turn off inlining, repeat to make inlining more aggressive
+-N disable optimizations
+-B disable bounds checking
+```
+Usage: 
+
+```bash
+go build -gcflags=-S pkg
+go tool compile -S a.go b.go c.go
+```
+
+## GODEBUG
+Useful GODEBUG variables for performance:
+
+```bash
+allocfreetrace=1: print all allocs and frees (it's a lot!)
+gctrace=1, gctrace=2: print GC activity
+schedtrace=X: print scheduler state every X ms
+scheddetail=1: print detailed scheduler state
+```
+
+## GCGC
+GOGC variabels:
+
+```
+GOGC=off go run x.go
+# Or
+runtime.SetGCPercent(-1) // -1 for off, 50 for aggressive GC, 100 for default, 200 for lazy GC
+```
+
+Usage:
+
+```bash
+GODEBUG=scheddetail=1,schedtrace=1000 go run x.go
+```
