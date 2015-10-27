@@ -1,5 +1,5 @@
 +++
-categories = ["Go"]
+categories = ["golang"]
 date = "2015-10-26T10:29:36+09:00"
 title = "dispatch"
 
