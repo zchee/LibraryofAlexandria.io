@@ -21,7 +21,8 @@ theme = "nofancy"
   twitter = "_zchee_"
 
 [permalinks]
-  post = "/:year/:month/:title/"
+  post = "/:filename/"
+  # post = "/:year/:month/:title/"
 
 [taxonomies]
   category = "categories"
