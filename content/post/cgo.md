@@ -171,6 +171,19 @@ helloworld: 1746928 bytes
 ```
 But you lose debug information.
 
+## interns string
+```go
+// Package intern interns strings.
+// Interning is best effort only.
+// Interned strings may be removed automatically
+// at any time without notification.
+// All functions may be called concurrently
+// with themselves and each other.
+```
+
+- https://github.com/josharian/intern/blob/master/intern.go
+- https://github.com/golang/go/issues/5160
+
 ## See also
 - Go Performance Tutorial on PayPal / http://cdn.oreillystatic.com/en/assets/1/event/129/Go%20performance%20tutorial%20Presentation%201.pdf
 - Cgo の基本的な使い方とポインタ周りのTips / http://r9y9.github.io/blog/2014/03/22/cgo-tips/
