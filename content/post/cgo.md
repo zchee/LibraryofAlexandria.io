@@ -189,4 +189,4 @@ But you lose debug information.
 - Cgo の基本的な使い方とポインタ周りのTips / http://r9y9.github.io/blog/2014/03/22/cgo-tips/
 - cgoでGolangとC++ライブラリをリンクするとき、何が起きているのか / https://beatsync.net/main/log20141022.html
 - Why my Go program is slow? / http://www.slideshare.net/InadaNaoki/gocon2014-pprof
-- よくみる extern "C" {} と __cplusplus / http://hakobe932.hatenablog.com/entry/20090104/1231073299
+- よくみる `extern "C" {}` と `__cplusplus` / http://hakobe932.hatenablog.com/entry/20090104/1231073299
