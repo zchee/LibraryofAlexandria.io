@@ -31,3 +31,4 @@ theme = "nofancy"
 [params]
   description = "Library of Alexandria"
   author = "zchee <Koichi Shiraishi>"
+  highlight="dark"
