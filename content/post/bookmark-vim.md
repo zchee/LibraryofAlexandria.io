@@ -1,4 +1,5 @@
 +++
+categories = ["bookmark"]
 date = "2015-07-19T17:29:26+09:00"
 title = "vim bookmark"
 
