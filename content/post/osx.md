@@ -319,42 +319,166 @@ Command line tool that demonstrates how to use IOKitLib to find all serial ports
 https://developer.apple.com/library/prerelease/mac/samplecode/SerialPortSample/Introduction/Intro.html
 https://developer.apple.com/library/prerelease/mac/samplecode/SerialPortSample/SerialPortSample.zip
 
-## PreLoginAgents
-Compressing Blocks and Streams of Data
+## SMJobBless
+SMJobBless demonstrates how to securely install a helper tool that performs a privileged operation and  
+how to associate the tool with an application that invokes it.
 
 | Last Revision           | Build Requirements | Runtime Requirements |
 |-------------------------|--------------------|----------------------|
-| Version 1.1, 2014-04-07 | Xcode 5.1          | OS X 10.9            |
+| Version 1.5, 2013-09-17 | Xcode 4.6 or later | OS X 10.6 or later   |
 
-https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/SMJobBless/Introduction/Intro.html
 https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/PreLoginAgents.zip
 
-## PreLoginAgents
-Compressing Blocks and Streams of Data
+## SampleUSBAudioOverrideDriver
+This project demonstrates how to override certain properties of a USB audio device using a codeless kernel extension (kext).
+
+| Last Revision           | Build Requirements                           | Runtime Requirements |
+|-------------------------|----------------------------------------------|----------------------|
+| Version 1.2, 2013-06-03 | Xcode 5.4.2 or later, Mac OS X 10.8 or later | OS X 10.7 or later   |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/SampleUSBAudioOverrideDriver/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/SampleUSBAudioOverrideDriver/SampleUSBAudioOverrideDriver.zip
+
+## NotifyTool
+NotifyTool is a simple example of how to use the BSD notify API (man 3 notify).
 
 | Last Revision           | Build Requirements | Runtime Requirements |
 |-------------------------|--------------------|----------------------|
-| Version 1.1, 2014-04-07 | Xcode 5.1          | OS X 10.9            |
+| Version 1.1, 2012-08-19 | Xcode 4.4          | OS X 10.6            |
 
-https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/Introduction/Intro.html
-https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/PreLoginAgents.zip
+https://developer.apple.com/library/prerelease/mac/samplecode/NotifyTool/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/NotifyTool/NotifyTool.zip
 
-## PreLoginAgents
-Compressing Blocks and Streams of Data
+## Sandboxing with NSXPCConnection
+"SandboxingAndNSXPCConnection" shows how the security concept of least privilege separation  
+can be implemented using App Sandboxing and XPC interprocess communication (IPC).
+
+| Last Revision           | Build Requirements                     | Runtime Requirements |
+|-------------------------|----------------------------------------|----------------------|
+| Version 1.0, 2012-08-21 | Xcode 4.4 or later, OS X 10.8 or later | OS X 10.8 or later   |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/SandboxingAndNSXPCConnection/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/SandboxingAndNSXPCConnection/SandboxingAndNSXPCConnection.zip
+
+## ClipboardViewer
+This small application shows the contents of any clipboard.
+
+| Last Revision           | Build Requirements                     | Runtime Requirements |
+|-------------------------|----------------------------------------|----------------------|
+| Version 1.2, 2012-06-07 | Xcode 4.0 or later, OS X 10.7 or later | OS X 10.7 or later   |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/ClipboardViewer/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/ClipboardViewer/ClipboardViewer.zip
+
+## Cache
+NSCache demonstration, also using NSImage, NSView, NSTimer, and NSBitmapImageRep.
+
+| Last Revision           | Build Requirements                     | Runtime Requirements |
+|-------------------------|----------------------------------------|----------------------|
+| Version 1.0, 2012-05-30 | Xcode 4.0 or later, OS X 10.7 or later | OS X 10.7 or later   |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/Cache/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/Cache/Cache.zip
+
+## Core Data Utility
+This sample contains the complete source code to the Core Data Utility Tutorial.
 
 | Last Revision           | Build Requirements | Runtime Requirements |
 |-------------------------|--------------------|----------------------|
-| Version 1.1, 2014-04-07 | Xcode 5.1          | OS X 10.9            |
+| Version 1.0, 2012-04-04 | Xcode 4.4 or later | OS X 10.8 or later   |
 
-https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/Introduction/Intro.html
-https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/PreLoginAgents.zip
+https://developer.apple.com/library/prerelease/mac/samplecode/CoreDataUtility/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/CoreDataUtility/CoreDataUtility.zip
 
-## PreLoginAgents
-Compressing Blocks and Streams of Data
+## Dispatch_Compared
+This sample code measures the performance of invoking and executing various parallel APIs, in comparison to serial equivalents a simple for loop,  
+GCD: dispatch_apply,  
+GCD: serial queue,  
+GCD: parallel queue,  
+GCD: multiple queues,  
+OpenMP, and POSIX threads.
 
 | Last Revision           | Build Requirements | Runtime Requirements |
 |-------------------------|--------------------|----------------------|
-| Version 1.1, 2014-04-07 | Xcode 5.1          | OS X 10.9            |
+| Version 1.0, 2009-09-08 | OS X 10.6 or later | OS X 10.6 or later   |
 
-https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/Introduction/Intro.html
-https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/PreLoginAgents.zip
+https://developer.apple.com/library/prerelease/mac/samplecode/Dispatch_Compared/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/Dispatch_Compared/Dispatch_Compared.zip
+
+## Dispatch_Compared
+This sample code measures the performance of invoking and executing various parallel APIs, in comparison to serial equivalents a simple for loop,  
+GCD: dispatch_apply,  
+GCD: serial queue,  
+GCD: parallel queue,  
+GCD: multiple queues,  
+OpenMP, and POSIX threads.
+
+| Last Revision           | Build Requirements | Runtime Requirements |
+|-------------------------|--------------------|----------------------|
+| Version 1.0, 2009-09-08 | OS X 10.6 or later | OS X 10.6 or later   |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/Dispatch_Compared/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/Dispatch_Compared/Dispatch_Compared.zip
+
+## DispatchFractal
+Shows how to combine parallel computation of fractals on the CPU via GCD with results processing and display on the GPU via OpenCL and OpenGL.
+
+| Last Revision           | Build Requirements | Runtime Requirements |
+|-------------------------|--------------------|----------------------|
+| Version 1.0, 2009-06-05 | OS X 10.6 or later | OS X 10.6 or later   |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/DispatchFractal/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/DispatchFractal/DispatchFractal.zip
+
+## DispatchLife
+The classic game of Life showing use of dispatch queues as lightweight threads (each cell is a queue),  
+and an example of how to avoid overloading a slow queue (OpenGL or curses screen updates) with many requests (cell updates)  
+by using a timer to drive the screen updates and allowing the cells to update as fast as they can.
+
+| Last Revision           | Build Requirements | Runtime Requirements |
+|-------------------------|--------------------|----------------------|
+| Version 1.2, 2009-05-29 | OS X 10.6 or later | OS X 10.6 or later   |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/DispatchLife/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/DispatchLife/DispatchLife.zip
+
+## Dispatch_Samples
+Examples of using Grand Central Dispatch (GCD) sources (file, network, and timers), dispatch_apply,dispatch_group.
+
+| Last Revision           | Build Requirements | Runtime Requirements |
+|-------------------------|--------------------|----------------------|
+| Version 1.0, 2009-05-29 | OS X 10.6 or later | OS X 10.6 or later   |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/Dispatch_Samples/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/Dispatch_Samples/Dispatch_Samples.zip
+
+## DispatchWebServer
+A web server that uses one queue per HTTP connection.
+
+| Last Revision           | Build Requirements | Runtime Requirements |
+|-------------------------|--------------------|----------------------|
+| Version 1.1, 2009-05-29 | OS X 10.6 or later | OS X 10.6 or later   |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/DispatchWebServer/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/DispatchWebServer/DispatchWebServer.zip
+
+## FSMegaInfo
+This tool is designed to help folks who are implementing a plug-in file system (VFS plug-ins) on Mac OS X.
+
+| Last Revision           | Build Requirements | Runtime Requirements |
+|-------------------------|--------------------|----------------------|
+| Version 1.0, 2008-02-25 | Xcode 3.0          | OS X 10.4 or later   |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/FSMegaInfo/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/FSMegaInfo/FSMegaInfo.zip
+
+## Duplicate Finder Items
+This sample project shows how to build an Automator action targeting Finder using AppleScript.
+
+| Last Revision           | Build Requirements | Runtime Requirements |
+|-------------------------|--------------------|----------------------|
+| Version 1.0, 2005-06-06 | Xcode 2.1          | OS X 10.4 or later   |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/DuplicateFinderItems/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/DuplicateFinderItems/DuplicateFinderItems.zip
