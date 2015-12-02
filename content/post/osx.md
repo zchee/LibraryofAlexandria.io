@@ -78,8 +78,16 @@ http://devstreaming.apple.com/videos/wwdc/2013/407xdx3xw3kl5xx1h5cs73sp/407/407.
 Grand Central Dispatch (GCD) comprises language features, runtime libraries, and system enhancements that provide systemic,  
 comprehensive improvements to the support for concurrent code execution on multicore hardware in iOS and OS X.
 
+### Reference: Grand Central Dispatch (GCD) Reference
+https://developer.apple.com/library/prerelease/mac/documentation/Performance/Reference/GCD_libdispatch_Ref/index.html
+
 ### Guide: XPC, GCD - Manage Tasks with CTS and GCD
 https://developer.apple.com/library/prerelease/mac/documentation/Performance/Conceptual/power_efficiency_guidelines_osx/DiscretionaryTasks.html
+
+### Guide: Prioritize Work at the Task Level
+https://developer.apple.com/library/prerelease/mac/documentation/Performance/Conceptual/power_efficiency_guidelines_osx/PrioritizeWorkAtTheTaskLevel.html
+
+## Kernel Events
 
 ### Reference: DarwinNotify - Darwin Notification API Reference
 https://developer.apple.com/library/prerelease/mac/documentation/Darwin/Reference/DarwinNotify
@@ -104,7 +112,16 @@ and can be more resource intensive because of the additional user-kernel communi
 ### Kernel Queue and Events
 http://people.freebsd.org/~jmg/kq.html
 
+
 ## Threading, Concurrency, Asynchronous, Parallelization
+
+### Concurrency Programming Guide
+Concurrency is the notion of multiple things happening at the same time.
+https://developer.apple.com/library/prerelease/mac/documentation/General/Conceptual/ConcurrencyProgrammingGuide
+
+### Threading Programming Guide
+Threads are one of several technologies that make it possible to execute multiple code paths concurrently inside a single application.
+https://developer.apple.com/library/prerelease/mac/documentation/Cocoa/Conceptual/Multithreading
 
 ### Quelity of Service Classes (QoS)
 https://developer.apple.com/library/prerelease/mac/documentation/Performance/Conceptual/power_efficiency_guidelines_osx/PrioritizeWorkAtTheTaskLevel.html
@@ -118,6 +135,9 @@ A CFRunLoop object monitors sources of input to a task and dispatches control wh
 
 ### Xcode Essentials
 https://developer.apple.com/library/prerelease/mac/documentation/ToolsLanguages/Conceptual/Xcode_Overview
+
+### Xcode Server API
+https://developer.apple.com/library/prerelease/mac/documentation/Xcode/Conceptual/XcodeServerAPIReference
 
 ### Instruments User Guide
 https://developer.apple.com/library/prerelease/mac/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide
@@ -181,8 +201,11 @@ https://developer.apple.com/library/prerelease/mac/documentation/Darwin/Referenc
 ### Apple Developer Library 日本語ドキュメント
 https://developer.apple.com/jp/documentation/
 
-### Reference: notifications - NSNotificationnCenter
+### Reference: notifications center - NSNotificationnCenter
 https://developer.apple.com/library/prerelease/mac/documentation/Cocoa/Reference/Foundation/Classes/NSNotificationCenter_Class
+
+### System Integrity Protection(SIP) Guide
+https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html
 
 ### Blocks Programming Topics
 https://developer.apple.com/library/prerelease/mac/documentation/Cocoa/Conceptual/Blocks/Articles/00_Introduction.html
@@ -191,7 +214,31 @@ Block objects are a C-level syntactic and runtime feature.
 ### OpenCL
 https://developer.apple.com/library/prerelease/mac/technotes/tn2335/_index.html
 
+### Configuration Profile Key Reference
+https://developer.apple.com/library/prerelease/mac/featuredarticles/iPhoneConfigurationProfileRef/Introduction/Introduction.html
+
+
 # Apple's Mac Developer Library Sample Code
+
+## SignalProcessing
+Using Biquadratic Filter Functions
+
+| Last Revision           | Build Requirements     | Runtime Requirements |
+|-------------------------|------------------------|----------------------|
+| Version 1.0, 2015-10-21 | Xcode 7.0, iOS 9.0 SDK | iOS 9.0              |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/SignalProcessing/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/SignalProcessing/SignalProcessingUsingBiquadraticFilterFunctions.zip
+
+## CompressionSample
+Compressing Blocks and Streams of Data
+
+| Last Revision           | Build Requirements        | Runtime Requirements |
+|-------------------------|---------------------------|----------------------|
+| Version 1.0, 2015-10-21 | Xcode 7.0, OS X 10.11 SDK | OS X 10.11           |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/CompressionSample/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/CompressionSample/CompressionSampleCompressingBlocksandStreamsofData.zip
 
 ## Earthquakes
 Populating a Core Data Store Using a Background Queue.
@@ -253,3 +300,61 @@ KauthORama demonstrates the use of the Kernel Authorization (Kauth) subsystem.
 | Version 1.4, 2014-03-26 | Xcode 5.1          | OS X 10.9 or later   |
 
 ## PreLoginAgents
+Compressing Blocks and Streams of Data
+
+| Last Revision           | Build Requirements | Runtime Requirements |
+|-------------------------|--------------------|----------------------|
+| Version 1.1, 2014-04-07 | Xcode 5.1          | OS X 10.9            |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/PreLoginAgents.zip
+
+## Performing Serial I/O
+Command line tool that demonstrates how to use IOKitLib to find all serial ports on OS X.
+
+| Last Revision           | Build Requirements     | Runtime Requirements |
+|-------------------------|------------------------|----------------------|
+| Version 1.5, 2013-11-07 | Os X 10.6 SDK or later | OS X 10.6 or later   |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/SerialPortSample/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/SerialPortSample/SerialPortSample.zip
+
+## PreLoginAgents
+Compressing Blocks and Streams of Data
+
+| Last Revision           | Build Requirements | Runtime Requirements |
+|-------------------------|--------------------|----------------------|
+| Version 1.1, 2014-04-07 | Xcode 5.1          | OS X 10.9            |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/PreLoginAgents.zip
+
+## PreLoginAgents
+Compressing Blocks and Streams of Data
+
+| Last Revision           | Build Requirements | Runtime Requirements |
+|-------------------------|--------------------|----------------------|
+| Version 1.1, 2014-04-07 | Xcode 5.1          | OS X 10.9            |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/PreLoginAgents.zip
+
+## PreLoginAgents
+Compressing Blocks and Streams of Data
+
+| Last Revision           | Build Requirements | Runtime Requirements |
+|-------------------------|--------------------|----------------------|
+| Version 1.1, 2014-04-07 | Xcode 5.1          | OS X 10.9            |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/PreLoginAgents.zip
+
+## PreLoginAgents
+Compressing Blocks and Streams of Data
+
+| Last Revision           | Build Requirements | Runtime Requirements |
+|-------------------------|--------------------|----------------------|
+| Version 1.1, 2014-04-07 | Xcode 5.1          | OS X 10.9            |
+
+https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/Introduction/Intro.html
+https://developer.apple.com/library/prerelease/mac/samplecode/PreLoginAgents/PreLoginAgents.zip
