@@ -406,21 +406,6 @@ OpenMP, and POSIX threads.
 https://developer.apple.com/library/prerelease/mac/samplecode/Dispatch_Compared/Introduction/Intro.html
 https://developer.apple.com/library/prerelease/mac/samplecode/Dispatch_Compared/Dispatch_Compared.zip
 
-## Dispatch_Compared
-This sample code measures the performance of invoking and executing various parallel APIs, in comparison to serial equivalents a simple for loop,  
-GCD: dispatch_apply,  
-GCD: serial queue,  
-GCD: parallel queue,  
-GCD: multiple queues,  
-OpenMP, and POSIX threads.
-
-| Last Revision           | Build Requirements | Runtime Requirements |
-|-------------------------|--------------------|----------------------|
-| Version 1.0, 2009-09-08 | OS X 10.6 or later | OS X 10.6 or later   |
-
-https://developer.apple.com/library/prerelease/mac/samplecode/Dispatch_Compared/Introduction/Intro.html
-https://developer.apple.com/library/prerelease/mac/samplecode/Dispatch_Compared/Dispatch_Compared.zip
-
 ## DispatchFractal
 Shows how to combine parallel computation of fractals on the CPU via GCD with results processing and display on the GPU via OpenCL and OpenGL.
 
