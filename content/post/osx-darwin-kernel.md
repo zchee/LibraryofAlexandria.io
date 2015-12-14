@@ -5,7 +5,6 @@ title = "OS X Darwin Kernel Resources"
 
 +++
 The OS X Darwin Kernel Resources Collection.  
-Basically, link to Apple's "Mac Developer Library" references or guides.
 
 
 ## Performance
