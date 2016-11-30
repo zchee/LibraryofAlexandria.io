@@ -1,7 +1,6 @@
-libraryofalexandria.io
+LibraryofAlexandria.io
 ======================
-Blog style's library of the programming Yaks.  
-Such as Library of Alexandria.
 
-[![Circle CI](https://circleci.com/gh/zchee/LibraryofAlexandria.io.svg?style=svg)](https://circleci.com/gh/zchee/libraryofalexandria.io)
+Library of Alexandria.
 
+[![Circle CI](https://img.shields.io/circleci/token/ab9cb13defcb1127196f8e396a3702de6ab7e066/project/github/zchee/LibraryofAlexandria.io.svg?style=flat-square)](https://circleci.com/gh/zchee/LibraryofAlexandria.io)
