@@ -6,7 +6,7 @@
 ########################################
 
 builddrafts = true
-baseurl = "http://libraryofalexandria.io/"
+baseurl = "https://libraryofalexandria.io/"
 canonifyurls = true
 editor = "nvim"
 title = "Library of Alexandria"
