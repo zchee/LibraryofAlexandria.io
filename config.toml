@@ -10,7 +10,7 @@ baseurl = "https://libraryofalexandria.io/"
 canonifyurls = true
 editor = "nvim"
 title = "Library of Alexandria"
-theme = "nofancy"
+theme = "nonfancy"
 
 [author]
   name = "zchee - Koichi Shiraishi"
