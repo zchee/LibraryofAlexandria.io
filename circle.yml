@@ -11,15 +11,14 @@ checkout:
     - git submodule update --init --recursive
 
 dependencies:
+  cache_directories:
+    - bin
   pre:
     - bash ./ci-install-hugo.sh
     - go get -v github.com/nathany/s3up
-  cache_directories:
-    - bin
 
 test:
   pre:
-  override:
     - hugo -v
-  post:
+  override:
     - if [ $CIRCLE_BRANCH == 'master' ]; then s3up -source=public/ -bucket=$BUCKET -key=$AWS_ACCESS_KEY_ID -secret=$AWS_SECRET_ACCESS_KEY -region="ap-northeast-1" ; fi
